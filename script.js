@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://taskskodilla.herokuapp.com/v1/tasks';
-  const trelloApiRoot = 'https://taskskodilla.herokuapp.com/1';
+  const trelloApiRoot = 'https://taskskodilla.herokuapp.com/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
